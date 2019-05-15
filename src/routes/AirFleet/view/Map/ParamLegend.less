@@ -1,0 +1,151 @@
+@import "~antd/lib/style/themes/default.less";
+@import "../../../../utils/utils.less";
+.dacontainer {
+  z-Index: 999;
+  width: 238px;
+  margin: 50px;
+  font-family: '微软雅黑';
+  background: rgba(0,0,0,0.6);
+  /* background-color: transparent !important; */
+  color: #FFF;
+  position: relative;
+  pointer-events: auto;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.4);
+  /* z-index: 10000; */
+  border-radius: 6px;
+}
+
+.datitle {
+  font-weight: bold;
+  height: 25px;
+  padding: 3px 0 3px 0;
+  border-radius: 6px 6px 0 0;
+  background-color: rgba(102, 102, 102, 0.6);
+}
+
+.daleft{
+  //padding: 0 0 0 10px;
+  left: 0;
+}
+
+.datitle div.daleft{
+  padding: 0 0 0 10px;
+}
+
+.dacontainer div.daleft {
+  float: left;
+}
+
+.daright{
+  //padding: 0 10px 0 0;
+  right: 0;
+}
+
+.datitle div.daright {
+  padding: 0 10px 0 0;
+}
+
+.dacontainer div.daright {
+  float: right;
+}
+
+.datitletext{
+
+}
+
+.dacontainerbody{
+  padding: 3px 3px 6px 3px;
+  clear: both;
+  margin: 0;
+  /* border-radius: 6px 6px 0 0; */
+}
+
+.dacontainerbody table {
+  width: 100%;
+  border: 1px solid #aaa;
+}
+
+.daoverflowbody thead, .daoverflowbody tbody tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.dacontainerbody table th {
+  border-bottom: 1px solid #aaa;
+  padding: 3px;
+  margin: 0;
+  text-align: left;
+}
+
+.padding8l {
+  padding: 0 0 0 8px;
+}
+
+.daparambox {
+  border: 1px solid rgba(169,166,166, 0.5);
+  padding: 1px 5px 1px 5px;
+  margin: 0 5px 0 0;
+  -webkit-box-shadow: 0 0 9px #333;
+}
+.dabutton {
+  cursor: pointer;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0 3px 0 3px;
+}
+.tac {
+   text-align: center;
+  width: 16px;
+ }
+
+.datitle div.daright i {
+  margin: 0 0 0 6px;
+  cursor: pointer;
+}
+
+.dacontainerbody thead, .dacontainerbody tbody tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.dacontainerbody tbody {
+  display: block;
+  overflow: auto;
+}
+
+.dacontainerbody table th {
+  border-bottom: 1px solid #aaa;
+  padding: 3px;
+  margin: 0;
+  text-align: left;
+}
+
+.dacontainer input {
+  margin: 3px 0 0 0;
+  padding: 1px 2px 1px 2px;
+}
+
+.dacontainerbody table input {
+  border: 1px solid #aaa;
+  color: white;
+  width: 100%;
+  background-color: transparent !important;
+}
+
+.dacontainerbody td {
+  margin: 0;
+  padding: 0;
+}
+
+.dacontainer .w16 {
+  width: 16px;
+}
